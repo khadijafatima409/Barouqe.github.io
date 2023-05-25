@@ -1,0 +1,233 @@
+.blue{
+    background-color:rgb(157, 167, 196);
+}
+.red{
+    border: 2px solid red;
+}
+.nav-link{
+    color: rgb(128, 62, 0);
+}
+.navbar-nav li a:hover{
+    color: red;
+    background-color: green;
+    border-radius: 20px;
+   /* padding: 13px; */
+   color: white !important;
+    
+}
+.topnav{
+    font-size: 14px;
+    color: white;
+}
+i{
+    
+}
+.toptopicons{
+    color: white;
+}
+.toptopicons i{
+    color: white;
+    font-size: 20px;
+}
+.navbarsecrtoin{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.upperfooter{
+    background-color: #ececec;
+}
+.upperfooter p{
+    font-size: 12px;
+
+}
+.cssancher h4{
+    color: #000;
+    font-weight: 300;
+    font-size: 20px;
+}
+.cssancher a{
+    text-decoration: none !important;
+    border-bottom: 3px solid black;
+    padding-bottom: 3px;
+    color: black;
+    font-weight: 700;
+}
+/* .mynavicons{
+    margin-right: 7rem!important;
+} */
+.footerformbtn h3{
+     font-size: 20px;
+     padding-right: 90px;
+     font-weight: 300;
+
+}
+.footerformbtn button{
+    height: 28px;
+    color: white;
+    background-color: black;
+        
+}
+
+.footerimges h6::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width: 176px;
+    height: 2.3px;
+    margin: 0px auto;
+
+}
+.footerformbtn input[type="text"]{
+    padding: -5px 30px;
+    height: 25px;
+
+}
+.footerimges::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 118px;
+    margin: 0px auto;
+    left: 5px;
+    top: 44px;
+}
+.footerimgess h6::after{
+    content: "";
+    display: block;
+    /* position: absolute; */
+    background-color: black;
+    width: 176px;
+    height: 2.3px;
+    margin: 0px auto;
+
+}
+.fixedbtn{
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 15px;
+    background-color: black;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 29px;
+}
+.discountsonpics{
+    position: absolute;
+	right: 7%;
+    top: 2%;
+    color: white;
+    background-color: #e27c7c;
+    width: 53px;
+    text-align: center;
+}
+
+.hoverchange{
+
+}
+.hoverchange {
+        position: relative;
+        width: 360px; /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+    }
+    .hoverchange img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .hoverchange:hover img.image-hover {
+      opacity: 1;
+    }
+
+
+
+.divsizeshow{
+    display: none;
+}
+.divsizeshow1{
+    display: block;
+}
+.divpieceshow{
+    display: none;
+}
+.divpieceshow1{
+    display: block;
+}
+.fabric{
+    display: none;
+}
+.fabric1{
+    display: block;
+}
+.divpriceshow{
+    display: none;
+}
+.divpriceshow1{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+      /* css of shipping page */
+.myaddresscart{
+    background-color: #e0e0e0;
+}
+.myaddresscart form{
+    width: 100%;
+}
+
+
+/* 
+
+
+
+
+
+@media only screen and (max-width: 1197px) {
+    .discountsonpics{
+        bottom: 291px;
+        left: 138px;
+    }
+  }
+
+
+  @media only screen and (max-width: 948px) {
+    .discountsonpics{
+        bottom: 704px;
+    left: 399px;
+    }
+  }
+  @media only screen and (max-width: 543px) {
+    .discountsonpics{
+        bottom: 536px;
+        left: 299px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .discountsonpics{
+        bottom: 461px;
+        left: 246px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .discountsonpics{
+        bottom: 376px;
+        left: 195px;
+    }
+  } */
